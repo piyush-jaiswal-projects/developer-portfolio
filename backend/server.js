@@ -7,7 +7,6 @@ import api from "./routes/routes.js";
 dotenv.config();
 
 const port = process.env.PORT || 5000;
-// const port = 5000;
 const app = express();
 
 app.use(bodyParser.json());
@@ -16,6 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cors());
 
+// middleware
 app.use((req, res, next)=>{
     console.log("Request Endpoint: " + req.method + " " + req.url);
     next();
