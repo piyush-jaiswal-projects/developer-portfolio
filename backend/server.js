@@ -3,6 +3,8 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import api from "./routes/routes.js";
+import mongoose from "mongoose";
+import ConnectDatabase from "./models/db.js";
 
 dotenv.config();
 
@@ -14,6 +16,8 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors());
+
+ConnectDatabase(process.env.DB_URL);
 
 // middleware
 app.use((req, res, next)=>{
