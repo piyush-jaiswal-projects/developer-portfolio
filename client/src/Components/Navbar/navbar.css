@@ -1,0 +1,45 @@
+.nav{
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link-left{
+    float: left;
+    padding: 4rem 0 0 4rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link-right{
+    float: right;
+    padding: 4rem 0 0 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.right-padding{
+    padding-right: 4rem;
+}
+
+.underline{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+.underline:after{
+    content: '';
+  display: block;
+  width: 0;
+    border-bottom: 3px solid red;
+  position: absolute;
+  right: 0;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.underline:hover:after { 
+    width: 70%; 
+  }
