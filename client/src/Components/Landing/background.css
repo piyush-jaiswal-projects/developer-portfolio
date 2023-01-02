@@ -1,0 +1,15 @@
+.bg-div{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+    opacity: 100%;
+}
+
+.bg-video{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
