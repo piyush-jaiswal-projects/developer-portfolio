@@ -1,0 +1,98 @@
+@keyframes slide{
+    0%{
+        right: 100rem;
+    }
+    100%{
+        right: 0rem;
+    }
+}
+
+.slide-horizontal{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.856);
+    position: relative;
+    overflow: hidden;
+    /* right: 100rem;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-delay: 10s; */
+
+}
+
+.Slider{
+    position: relative;
+    left: -100rem;
+    transition: 1s ease;
+}
+
+.slide-horizontal:hover .Slider{
+    left: 0;
+}
+
+.slide-horizontal:hover:after .Slider{
+    left: 0;
+}
+
+.slide-horizontal:after .Slider{
+    left: 0;
+}
+
+.title2{
+    color: white;
+}
+
+.image-background, .text-background{
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+}
+
+.image-background{
+    margin: 0 6rem 0 0;
+    float: right;
+}
+
+.text-background{
+    margin: 0 0 0 6rem;
+    position: relative;
+    top: 4rem;
+    float: left;
+    text-align: left;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.my-img{
+    z-index: +1;
+}
+
+.about-bg{
+    filter: invert(0.5);
+    transform: scale(3);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 7rem;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.overlay2{
+    z-index: 1;
+    /* display: none; */
+}
+
+.socialmedia-bar{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.social-img{
+    width: 30px;
+    filter: invert(0.9);
+    margin: 0 1rem;
+}
+
+
+

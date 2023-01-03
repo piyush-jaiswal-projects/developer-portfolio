@@ -1,8 +1,9 @@
 .nav{
-    width: 100vw;
+    width: 90vw;
     text-align: center;
     position: relative;
     display: inline-block;
+    z-index: 1000;
 }
 
 .nav-link-left{
@@ -43,3 +44,67 @@
 .underline:hover:after { 
     width: 70%; 
   }
+
+.menu-img{
+    filter: invert(0.9);
+    width: 20px;
+}
+
+.custom-space{
+    margin-right: 12rem;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: left;
+    transition: all 2s linear;
+}
+
+.menu-link:hover{
+    position: relative;
+    left: 40px;
+}
+
+
+
+.link-bar{
+    position: fixed;
+    bottom: 100px;
+    left: 150px;
+}
+
+.overlay-menu{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    transition: 10s ease-in;
+    color: white;
+    z-index: 1000;
+    display: none;
+    position: fixed;
+}
+
+.overlay-contact{
+    width: 300px;
+    height: 150px;
+    /* background-color: red; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.social-nav-img{
+    height: 30px;
+    margin: 20px 20px 20px 0;
+    filter: invert(0.5);
+}
+
+.email{
+    color: rgb(253, 15, 15);
+    text-align: left;
+}
