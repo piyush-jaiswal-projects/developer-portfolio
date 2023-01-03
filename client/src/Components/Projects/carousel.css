@@ -1,0 +1,58 @@
+.prev-btn, .next-btn{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 1rem;
+    background: none;
+    background-color: rgba(176, 179, 178, 0.185);
+    border-radius: 50%;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: +1;
+    position: relative;
+    top: 10rem;
+}
+
+.prev-btn:hover, .next-btn:hover{
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+
+.carousel-container{
+    /* background-color: green; */
+    /* margin: 1rem 5rem 1rem 6rem; */
+    margin: 1rem 5rem;
+    padding: 0rem;
+    height: 390px;
+    display: flex;
+    overflow: hidden;
+}
+
+.active{
+    /* background-color: red; */
+    transform: scale(1.2);
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.car{
+    width: 100%;
+    z-index: -1;
+    text-align: center;
+}
+
+.prev-btn{
+    float: left;
+}
+
+.next-btn{
+    float: right;
+}
