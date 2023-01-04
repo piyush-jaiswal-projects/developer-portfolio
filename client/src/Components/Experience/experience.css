@@ -1,0 +1,63 @@
+.exp-sec{
+    width: 100%;
+    height: 100vh;
+}
+
+.slider-div{
+    height: 500px;
+    width: 100%;
+    /* transform: rotate(180deg); */
+    filter: invert(0.1);
+    /* z-index: -1; */
+    position: absolute;
+}
+
+
+
+/* EXPERIENCE CARD CSS */
+.exp-card{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 1rem;
+    position: absolute;
+    transition: all 0.2s ease-in;
+}
+
+#exp1{
+    left: 350px;
+    top: 60px;
+}
+
+#exp2{
+    top: 160px;
+    left: 675px;
+}
+
+#exp3{
+    top: 290px;
+    left: 350px;
+}
+
+#exp4{
+    top: 400px;
+    left: 675px;
+}
+
+.duration{
+    display: none;
+}
+
+.exp-card:hover{
+    height: 60px;
+}
+
+.exp-card:hover .duration{
+    display: block;
+}
+
+.designation, .duration{
+    color: white;
+    margin: 0;
+}
