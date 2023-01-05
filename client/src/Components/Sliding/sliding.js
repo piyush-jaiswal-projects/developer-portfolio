@@ -9,7 +9,7 @@ import twitter from "./twitter.svg";
 
 function Sliding(){
     return(
-        <div className="slide-horizontal">
+        <div className="slide-horizontal" id="about">
         <div className="Slider">
         <div className="overlay2">
         <h1 className="sec-title title2">About Me</h1>
