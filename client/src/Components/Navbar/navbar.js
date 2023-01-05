@@ -23,11 +23,11 @@ function Navbar(){
         <div className="overlay-menu" id="menu">
         <img src={cross} className="nav-link-right custom-space menu-img" alt="Close" onClick={closeNavigation}></img>
         <div className="link-bar">
-        <a href=" " className="menu-link"><h1>HOME</h1></a>
-        <a href=" " className="menu-link"><h1>PROJECTS</h1></a>
-        <a href=" " className="menu-link"><h1>ABOUT</h1></a>
-        <a href=" " className="menu-link"><h1>EXPERIENCE</h1></a>
-        <a href=" " className="menu-link"><h1>CONTACT</h1></a>
+        <a href="#home" className="menu-link" onClick={closeNavigation}><h1>HOME</h1></a>
+        <a href="#projects" className="menu-link" onClick={closeNavigation}><h1>PROJECTS</h1></a>
+        <a href="#about" className="menu-link" onClick={closeNavigation}><h1>ABOUT</h1></a>
+        <a href="#experience" className="menu-link" onClick={closeNavigation}><h1>EXPERIENCE</h1></a>
+        <a href="#contact" className="menu-link" onClick={closeNavigation}><h1>CONTACT</h1></a>
         </div>
         <div className="overlay-contact">
         <h4 className="email">piyushjaiswalofficial001@gmail.com

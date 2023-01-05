@@ -1,38 +1,74 @@
 import React from 'react';
-
+import "react-multi-carousel/lib/styles.css";
 import Card from "./projectCard.js";
 import "./carousel.css";
-import RightArrow from "./media/arrow-right-solid.svg";
-import LeftArrow from "./media/arrow-left-solid.svg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function Carousel(){
 
-    function nextSlide(){
-
-    }
+    const settings = {
+        dots: true,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnFocus: true,
+        pauseOnHover: true
+      };
 
     return(
-        <div className='car'>
-        <button className="prev-btn"><img src={LeftArrow} alt='Prev' /></button>
-        <button className='next-btn' onClick={nextSlide}><img src={RightArrow} alt='Next' /></button>
-        <div className='carousel-container'>
-        <div className='item' id="1">
-        <Card />
+        // <div className='car'>
+        // {/* <button className="prev-btn"><img src={LeftArrow} alt='Prev' /></button>
+        // <button className='next-btn' onClick={nextSlide}><img src={RightArrow} alt='Next' /></button>
+        //  */}
+        // {/* <div className='carousel-container'>
+        // <Slider {...settings}>
+        // {/* <div className='item' id="1">
+        // <Card />
+        // </div>
+        // <div className='item active' id="2">
+        // <Card />
+        // </div>
+        // <div className='item' id="3">
+        // <Card />
+        // </div>
+        // <div className='item' id="4">
+        // <Card />
+        // </div>
+        // <div className='item' id="5">
+        // <Card />
+        // </div> */}
+        
+        // {/* </div> */} 
+        
+        // </div>
+        <>
+        <Slider {...settings}>
+        <div>
+            <Card />
         </div>
-        <div className='item active' id="2">
-        <Card />
+        <div>
+            <Card />
         </div>
-        <div className='item' id="3">
-        <Card />
+        <div>
+            <Card />
         </div>
-        <div className='item' id="4">
-        <Card />
+        <div>
+            <Card />
         </div>
-        <div className='item' id="5">
-        <Card />
+        <div>
+            <Card />
         </div>
-        </div>
-        </div>
+        </Slider>   
+        <br />
+        <br />
+        <button className='moreproj-btn'>See More Projects</button>
+        </>
     );
 }
 

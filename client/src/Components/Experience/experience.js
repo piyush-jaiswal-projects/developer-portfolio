@@ -23,7 +23,7 @@ function Experience(){
       ];
 
     return(
-        <div className="exp-sec">
+        <div className="exp-sec" id="experience">
         <h1 className="sec-title">Experience</h1>
         <div className="slider-div">
       <ExpCard

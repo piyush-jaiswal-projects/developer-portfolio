@@ -19,7 +19,7 @@ function Home(){
     }
 
     return(
-        <div className="home-div">
+        <div className="home-div" id="home">
         <div className="overlay">
         <Navbar />
         <h1 className="tagline">
