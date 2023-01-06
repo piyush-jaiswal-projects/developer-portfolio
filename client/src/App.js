@@ -7,7 +7,7 @@ import Home from "./Components/Landing/home.js";
 import Projects from "./Components/Projects/projects.js";
 import Sliding from "./Components/Sliding/sliding.js";
 import Experience from "./Components/Experience/experience.js";
-// import Footer from "./Components/Footer/footer.js";
+import Footer from "./Components/Footer/footer.js";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
     <Projects />
     <Sliding />
     <Experience />
-    {/* <Footer /> */}
+    <Footer />
     </div>
   );
 }
