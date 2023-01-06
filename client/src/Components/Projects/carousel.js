@@ -39,7 +39,7 @@ function Carousel(){
       };
 
       const settingSmall = {
-        dots: true,
+        dots: false,
         speed: 500,
         infinite: true,
         slidesToShow: 1,

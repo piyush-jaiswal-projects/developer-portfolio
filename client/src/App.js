@@ -14,8 +14,8 @@ function App() {
     <div className="App">
     <Home />
     <Projects />
-    {/* <Sliding />
-    <Experience />
+    <Sliding />
+    {/* <Experience />
     <Footer /> */}
     </div>
   );
