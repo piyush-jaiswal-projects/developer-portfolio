@@ -69,8 +69,51 @@
     cursor: pointer;
 }
 
-
 .moreproj-btn:hover{
     color: black !important; 
     background-color: grey !important;
+}
+
+.small{
+    display: none;
+}
+
+.medium{
+    display: none;
+}
+
+.large{
+    display: block;
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+
+    .small{
+        display: none;
+    }
+
+    .medium{
+        display: block;
+    }
+
+    .large{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .small{
+        display: block;
+    }
+
+    .medium{
+        display: none;
+    }
+
+    .large{
+        display: none;
+    }
+
 }

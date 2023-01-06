@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     margin: 0;
-    padding: 4rem 0 0 0;
+    padding: 0 0 0 0;
     overflow: hidden;
 }
 
@@ -10,7 +10,7 @@
     text-align: left;
     margin-left: 4rem;
     font-size: 4rem;
-    
+    overflow: hidden;
 }
 
 .project-tagline{
@@ -27,9 +27,6 @@
     margin: 2rem 11rem;
 }
 
-
-
-
 /* CARD CSS starts from here */
 .pro-card{
     background-color: white;
@@ -38,6 +35,7 @@
     border-radius: 20px;
     margin: 20px;
     transition: 1s;
+    overflow: hidden;
     box-shadow: rgba(150, 201, 221, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -72,3 +70,86 @@
     position: relative;
     left: 20px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+
+    #projects{
+        padding: 1rem 0 0 0;
+    }
+    
+    .sec-title{
+        margin-left: 1rem;
+        font-size: 2rem;
+    } 
+
+    .project-tagline{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        width: 80%;
+    }
+
+    .proj-carousel{
+        width: 100vw;
+        height: 30vw;
+        margin: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 325px) and (max-width: 375px){
+
+    .proj-carousel{
+        margin: 1.5rem 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px){
+
+    .proj-carousel{
+        margin: 1.5rem 15vw;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+
+    .proj-carousel{
+        margin: 1.5rem 0vw;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+
+    .proj-carousel{
+        width: 100vw;
+        height: 30vw;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px){
+
+    .proj-carousel{
+        width: 100vw;
+        height: 30vw;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 1100px){
+
+    .proj-carousel{
+        width: 75vw;
+    height: 30vw;
+    margin: 2rem 9rem;
+    }
+
+}
+
+

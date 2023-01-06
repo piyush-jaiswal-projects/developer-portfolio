@@ -1,29 +1,17 @@
-@keyframes slide{
-    0%{
-        right: 100rem;
-    }
-    100%{
-        right: 0rem;
-    }
-}
-
 .slide-horizontal{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.856);
     position: relative;
     overflow: hidden;
-    /* right: 100rem;
-    animation-name: slide;
-    animation-duration: 1s;
-    animation-delay: 10s; */
 
 }
 
 .Slider{
     position: relative;
-    left: -100rem;
+    /* left: -100rem; */
     transition: 1s ease;
+    height: 100vh;
 }
 
 .slide-horizontal:hover .Slider{
@@ -94,5 +82,242 @@
     margin: 0 1rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px){
 
+    .text-background{
+        margin: 0 0 0 1rem;
+        width: 90vw;
+        top: 1rem;
+        color: white;
+        font-size: 10px;
+        height: 230px;
+    }
 
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: none;
+    }
+
+    .my-img{
+        width: 300px;
+    }
+
+    .slide-horizontal{
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .socialmedia-bar{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width: 375px){
+
+    .text-background{
+        margin: 0 0 0 1rem;
+        width: 90vw;
+        top: 1rem;
+        color: white;
+        font-size: 12px;
+        height: 230px;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: none;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    .my-img{
+        width: 300px;
+    }
+
+    .slide-horizontal{
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .socialmedia-bar{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+
+    .text-background{
+        margin: 0 0 0 1rem;
+        width: 90vw;
+        top: 1rem;
+        color: white;
+        font-size: 13.5px;
+        height: 230px;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: none;
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+
+    .my-img{
+        width: 350px;
+    }
+
+    .slide-horizontal{
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .socialmedia-bar{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+
+    .text-background{
+        font-size: 15px;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: none;
+        position: relative;
+        bottom: 85px;
+        left: 150px;
+    }
+
+    .my-img{
+        width: 400px;
+    }
+
+    .socialmedia-bar{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+
+    .text-background{
+        margin: 0 0 0 3rem;
+        width: 75vw;
+        top: 1rem;
+        color: white;
+        font-size: 13.5px;
+        height: 230px;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: none;
+        position: absolute;
+        right: -130px;
+        top: 150px;
+    }
+
+    .my-img{
+        width: 450px;
+    }
+
+    .slide-horizontal{
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .socialmedia-bar{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .text-background{
+        margin: 0 0 0 3rem;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        float: right;
+        position: relative;
+        /* bottom: 400px; */
+        top: 20px;
+        left: 100px;
+    }
+
+    .my-img{
+        width: 500px;
+    }
+
+    .socialmedia-bar{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px){
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        /* float: right; */
+    }
+
+    .my-img{
+        width: 500px;
+        position: relative;
+        bottom: 420px;
+        left: 50px;
+    }
+
+    .slide-horizontal{
+        height: 100vh;
+    }
+
+}
+@media screen and (min-width: 1048px) and (max-width: 1100px){
+
+    .slide-horizontal{
+        height: 100vh;
+    }
+
+    .image-background{
+        margin: 0;
+        padding: 0;
+        height: 400px;
+    }
+
+    .my-img{
+        width: 400px;
+        position: relative;
+        top: 70px;
+        left: 20px;
+    }
+
+    .slide-horizontal{
+        height: 100vh;
+    }
+
+}
