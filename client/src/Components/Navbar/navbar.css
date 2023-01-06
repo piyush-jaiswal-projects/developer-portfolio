@@ -80,7 +80,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0);
-    transition: 10s ease-in;
+    transition: 1s ease-in;
     color: white;
     z-index: 1000;
     display: none;
@@ -132,7 +132,7 @@
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 325px){
+@media screen and (min-width: 300px) and (max-width: 475px){
 
    .link-bar{
     left: 10px;
@@ -151,120 +151,21 @@
     }
 }
 
-@media screen and (min-width: 325px) and (max-width: 580px){
+@media screen and (min-width: 475px) and (max-width: 900px){
 
-    .tagline{
-        font-size: 3.3rem;
-        padding: 0;
-        margin: 2rem 2rem 0 2rem;
-        text-align: center;
+    .link-bar{
+     left: 30px;
+     top: 50px;
     }
-
-    .desc-para{
-        padding: 0;
-        font-size: 1.2rem;
-        text-align: justify;
-        width: 80%;
-        margin: 20px 30px 20px 30px;
-    }
-
-    .more-btn{
-        display: inline-block;
-        /* margin: 20px 5px 55px 5px; */
-        margin-bottom: 30px;
-        left: 0px;
-    }
-
-    .scroll-txt{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 580px) and (max-width: 900px){
-
-    .tagline{
-        font-size: 4rem;
-        padding: 0;
-        margin: 2rem 2rem 2rem 2rem;
-        text-align: center;
-    }
-
-    .desc-para{
-        padding: 0;
-        font-size: 1.3rem;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    }
-
-    .more-btn{
-        display: inline-block;
-        margin: 20px 5px 55px 5px;
-        left: 0px;
-    }
-
-    .scroll-txt{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 900px) and (max-width: 1100px){
-
-    .tagline{
-        font-size: 5rem;
-        padding: 0;
-        margin: 3rem;
-        text-align: center;
-    }
-
-    .desc-para{
-        padding: 0;
-        font-size: 1.4rem;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    }
-
-    .more-btn{
-        display: inline-block;
-        margin: 30px 5px 55px 5px;
-        left: 0px;
-    }
-
-    .scroll-txt{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 1100px){
-
-    .home-div{
-        height: 100vh;
-    }
-
-    .tagline{
-        text-align: left;
-        padding: 0;
-        margin: 4rem 5rem 0 5rem;
-    }
-
-    .desc-para{
+ 
+    .menu-link{
+     font-size: 30px;
+  }
+ 
+     .email{
+         margin: 2rem;
          padding: 0;
-         margin-left: 5rem;
-        text-align: left;
-    }
-
-    .more-btn{
-        display: inline-block;
-        margin: 50px 5px 55px 5px;
-        left: 0px;
-    }
-
-    .scroll-txt{
-        display: none;
-    }
-
-}
+         position: relative;
+         left: 40px;
+     }
+ }
