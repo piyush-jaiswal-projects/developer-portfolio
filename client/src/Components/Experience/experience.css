@@ -1,15 +1,16 @@
 .exp-sec{
-    width: 100%;
+    width: 98vw;
     height: 100vh;
 }
 
 .slider-div{
     height: 500px;
-    width: 100%;
+    width: 90vw;
     /* transform: rotate(180deg); */
     filter: invert(0.1);
     /* z-index: -1; */
     position: absolute;
+    left: 1rem;
 }
 
 
@@ -26,23 +27,23 @@
 }
 
 #exp1{
-    left: 330px;
+    left: 18vw;
     top: 60px;
 }
 
 #exp2{
     top: 160px;
-    left: 675px;
+    left: 45vw;
 }
 
 #exp3{
     top: 290px;
-    left: 330px;
+    left: 18vw;
 }
 
 #exp4{
     top: 400px;
-    left: 675px;
+    left: 45vw;
 }
 
 .duration{
@@ -60,4 +61,135 @@
 .designation, .duration{
     color: white;
     margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .slider-div{
+        height: 550px;
+        width: 10%;
+        margin-top: 10px;
+        filter: invert(0.1);
+        position: absolute;
+        left: 0rem !important;
+    }
+
+    #exp1, #exp2, #exp3, #exp4{
+        left: 2rem;
+    }
+
+    .duration{
+        display: block;
+    }
+
+    .exp-card{
+        height: 60px;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+
+    #exp1, #exp2, #exp3, #exp4{
+        left: 8rem;
+    }
+
+    .slider-div{
+        height: 500px;
+        width: 10%;
+        margin-top: 10px;
+        filter: invert(0.1);
+        /* position: absolute;
+        left: 4rem; */
+    }
+
+    .duration{
+        display: block;
+    }
+
+    .exp-card{
+        height: 60px;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 650px){
+
+    #exp1,#exp3{
+        left: 2rem;
+    }
+
+    #exp2, #exp4{
+        left: 19rem;
+    }
+
+    .slider-div{
+        width: 10%;
+    }
+    
+    .duration{
+        display: block;
+    }
+
+    .exp-card{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 768px){
+
+    #exp1,#exp3{
+        left: 4rem;
+    }
+
+    #exp2, #exp4{
+        left: 24rem;
+    }
+
+    .slider-div{
+        width: 10%;
+    }
+
+    .duration{
+        display: block;
+    }
+
+    .exp-card{
+        height: 60px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px){
+
+    #exp1,#exp3{
+        left: 9vw;
+    }
+
+    #exp2, #exp4{
+        left: 22rem;
+    }
+
+    .slider-div{
+        width: 10%;
+        left: 5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px){
+
+    #exp1,#exp3{
+        left: 22vw;
+    }
+
+    #exp2, #exp4{
+        left: 32rem;
+    }
+
+    .slider-div{
+        width: 25%;
+        position: absolute;
+        left: 8rem;
+    }
+    
 }

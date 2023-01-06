@@ -15,7 +15,7 @@ function Home(){
     }
 
     function openProjects(){
-        window.location.replace("/projects");
+        window.location.replace("/#projects");
     }
 
     return(
