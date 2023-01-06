@@ -21,11 +21,11 @@ function Footer(){
         Chandigarh, India
         </h4>
         </div>
-        <div className="bottom-div">
+        {/* <div className="bottom-div">
         <h3>Copyright Piyush Jaiswal.
         <br></br>
         All Rights reserved.</h3>
-        </div>
+        </div> */}
         </div>
     );
 }
