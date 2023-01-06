@@ -27,13 +27,15 @@ function Home(){
             <br></br>secured websites.
         </h1>
         <p className="desc-para">
-            Hi, I am Piyush Jaiswal. I am a full stack web developer with more than 2 years of experience. I have successfully completed a handful of freelance projects, and could help you to build your website as well. Just click on let's talk on top right corner.
+            Hi, I am Piyush Jaiswal. I can help you to build your website. To connect, click on mail icon at top right corner.
         </p>
         <button className="more-btn" title="See my work" onClick={openProjects}>
         <img src={proj} alt="Projects" className="icon"></img>
+        <h4 className="btn-desc">Projects</h4>
         </button>
         <button className="more-btn" title="Download my resume" onClick={saveFile}>
         <img src={file} alt="Resume" className="icon"></img>
+        <h4 className="btn-desc">Resume</h4>
         </button>
         <p className="scroll-txt underline2">SCROLL</p>
         </div>

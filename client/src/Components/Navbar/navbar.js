@@ -6,6 +6,7 @@ import gmail from "../Sliding/mail.svg";
 import linkedin from "../Sliding/linkedin.svg";
 import twitter from "../Sliding/twitter.svg";
 import cross from "./circle-xmark-solid.svg";
+// import call from "./call.svg";
 
 function Navbar(){
     
@@ -44,7 +45,10 @@ function Navbar(){
         </div>
         <h3 className="nav-link-left">P I Y U S H &nbsp; J A I S W A L</h3> 
         <img src={Menu} className="nav-link-right right-padding menu-img" alt="Menu" onClick={openNavigation}></img>
-        <a href="mailto:piyushjaiswalofficial001@gmail.com"><h4 className="nav-link-right underline">LET's TALK</h4></a>
+        <a href="mailto:piyushjaiswalofficial001@gmail.com">
+        {/* <h4 className="nav-link-right underline">LET's TALK</h4> */}
+        <img src={gmail} className="nav-link-right right-padding menu-img" alt="Menu"></img>
+        </a>
         </div>
     );
 }
